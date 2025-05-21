@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KrishiGuide - Smart Farming Solutions</title>
-  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Great+Vibes&family=Josefin+Sans&family=Manrope&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -662,8 +662,10 @@
 
     <!-- Splash screen -->
     <div id="splash">
-      <img id="logo" src="static/images/krishiguide-removebg-preview.png" alt="Logo" style="width: 300px;"/>
-      <div class="quote" style="font-family: 'Josefin Sans';">"Welcome, Farmers — You are the true heroes of the soil."</div>
+      <img id="logo" src="images/krishiguide-removebg-preview.png" alt="Logo" style="width: 300px;"/>
+      <div class="quote" style="font-family: 'Josefin Sans';">"Welcome, Farmers — You are the true heroes of the soil.</div><br>
+      <div class="quote" style="font-family: 'Josefin Sans';">Only the Frontend, Use Laptop for better Experience.</div><br>
+      <div class="quote" style="font-family: 'Josefin Sans';">Thank You."</div>
     </div>
 
   <nav>
@@ -937,7 +939,7 @@
         <a href="#features" data-en="Features" data-hi="सुविधाएं">Features</a>
         <a href="#about" data-en="About" data-hi="हमारे बारे में">About</a>
         <a href="#contact" data-en="Contact" data-hi="संपर्क करें">Contact</a>
-        <a href="/developers" data-en="Developers" data-hi="डेवलपर्स">Developers</a>
+        <a href="developers.html" data-en="Developers" data-hi="डेवलपर्स">Developers</a>
       </div>
       <div class="footer-section">
         <h3 data-en="Features" data-hi="सुविधाएं">Features</h3>
@@ -1009,7 +1011,7 @@
         setTimeout(() => {
           sessionStorage.setItem("splashShown", "true");
           showMain();
-        }, 3000); // 4s + fade animation
+        }, 15000); // 4s + fade animation
       };
 
       if (logo.complete) logo.onload();
@@ -1323,7 +1325,7 @@
 
 
   </script>
-  <script src="static/script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 
